@@ -2,9 +2,8 @@
  * Autores:
  *  Antônio Carlos Durães da Silva
  */
-#include <iostream>
+#include<iostream>
 #include<algorithm>
-#include<cstdio>
 #include<map>
 #include<vector>
 
@@ -74,4 +73,5 @@ int main() {
 
         if (n_testes) cout << endl;
     }
+    return 0;
 }
