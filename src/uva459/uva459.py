@@ -1,3 +1,6 @@
+# Problema #459 - Graph Connectivity
+# Autores:
+#  Carlos Felismino P.
 def buscLarg(no, visitadoF, grafoF): #DADO UM Nó marca como visitado todos os nós do Grafo que contem esse nó
   visitadoF[no] = 1 #Marca no grafo de visitados a posicao visitada com 1
   for i in grafoF[no]: #Loop nos nós conectados ao NO passado como parametro em BuscLarg
@@ -6,7 +9,6 @@ def buscLarg(no, visitadoF, grafoF): #DADO UM Nó marca como visitado todos os n
   return 0
 
 def main():
-    entrada = "NELSON"
     qtdExec = int(input().strip())
     input()
     while qtdExec > 0:

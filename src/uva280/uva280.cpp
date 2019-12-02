@@ -1,3 +1,7 @@
+/* Problema #280 - Vertex
+ * Autores:
+ *  Antônio Carlos Durães da Silva
+ */
 #include <iostream>
 #define MAX_N 101
 

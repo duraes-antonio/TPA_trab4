@@ -1,10 +1,7 @@
 /* Problema #11100 - The Trip, 2007
  * Autores:
- *  Antônio Carlos Durães da Silva
- *  Carlos Guilherme 
  *  Lucas Gomes Flegler
  */
-
 #include <algorithm>
 #include <iostream>
 #include <cstring>

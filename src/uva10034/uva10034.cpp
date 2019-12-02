@@ -1,3 +1,7 @@
+/* Problema #10034 - Freckles
+ * Autores:
+ *  Antônio Carlos Durães da Silva
+ */
 #include <iostream>
 #include <cmath>
 #define MAX_N 100
