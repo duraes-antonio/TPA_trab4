@@ -75,21 +75,3 @@ int main()
     }
     return 0;
 }
-
-// resposta: 
-// Primeiro, sabemos que o mesmo pacote de tamanho normal não pode ser 
-// incluído no mesmo pacote de tamanho grande; portanto, o número de pacotes grandes
-//  necessários é o valor máximo do mesmo pacote de modelo na sequência original.
-
-// a descricao do problema diz que qualquer tipo de saída pode ser satisfeita, logo, nossa idéia é colocar n pacotes em ordem. 
-// Depois disso, as primeiras respostas no array pacotes, após a classificação, são divididos respectivamente em pacotes maiores diferentes.
-
-// Por exemplo: 1 1 1 2 2 2 3 3 3 3 
-// Então resposta = 4, o número de pacotes necessários para 4 pacotes é 3 3 2 2. 
-// e entao Primeiro pacote: 1 1 1 2 2 2 3 3 3 Saída três das linhas 1 2 3 
-// O segundo pacote: 1 1 1 2 2 2 3 3 3 Três linhas de linhas de saída 1 2 3 
-
-// Nota: a descricao requer que uma linha em branco seja impressa entre duas amostras. 
-// Nste caso, usamos uma variável de flag para marcar a primeira amostra sem gerar uma 
-// linha em branco, seguida por output uma linha em branco antes da saída, para evitar 
-// o último conjunto de linhas em branco de saída
